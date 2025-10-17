@@ -1,4 +1,4 @@
-FROM docker:28.5.1
+FROM docker:28.5.1-cli
 
 # gettext for template expansion.
 # sed for official sed, not the one in busybox that came with base image.
